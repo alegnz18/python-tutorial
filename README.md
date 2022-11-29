@@ -62,7 +62,7 @@ Aquí utilizarás el intérprete en modo script, para lo cual el archivo a ejecu
 Luego de lo cual el archivo podrá ejecutarse directamente como se ve a continuación:
 
 ```console
-chmod u+x clases.py
+# chmod u+x clases.py
 # docker run --rm -v "$PWD":/home/python/scripts -w /home/python/scripts python:latest ./clases.py
 ```
 Acá pudiste ver un ejemplo de jerarquía de clases y de manejo de atributos públicos y privados implementado en Python.
