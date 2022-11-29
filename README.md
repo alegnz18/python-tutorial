@@ -44,7 +44,7 @@ De aquí en adelante será necesario tener descargados los scripts subidos al re
 Aquí usaremos el intérprete en modo línea de comando en el cual escribirás un programa completo en un archivo con extensión [nombre_archivo].py y luego será el intérprete python quien ejecutará el contenido del archivo.
 
 ```console
-docker run --rm -it -v "$PWD":/home/python/scripts -w /home/python/scripts python:latest python Python-basico.py
+# docker run --rm -it -v "$PWD":/home/python/scripts -w /home/python/scripts python:latest python Python-basico.py
 ```
 
 Siguiendo la salida de este script se tiene una idea básica de cómo maneja Python los distintos tipos de datos, las colecciones, las estructuras de control y una breve intro a la declaración e invocación de funciones.
@@ -61,8 +61,8 @@ Aquí utilizarás el intérprete en modo script, para lo cual el archivo a ejecu
 Luego de lo cual el archivo podrá ejecutarse directamente como se ve a continuación:
 
 ```console
-chmod u+x clases.py
-docker run --rm -v "$PWD":/home/python/scripts -w /home/python/scripts python:latest ./clases.py
+# chmod u+x clases.py
+# docker run --rm -v "$PWD":/home/python/scripts -w /home/python/scripts python:latest ./clases.py
 ```
 Acá pudiste ver un ejemplo de jerarquía de clases y de manejo de atributos públicos y privados implementado en Python.
 
@@ -73,5 +73,5 @@ En este caso usarás una imagen docker que es un container Python donde ya se en
 El presente código lee un archivo en formato YAML y lo carga en un diccionario de Python. Luego recorre el mismo para imprimir sus elementos a la salida por consola.
 
 ```console
-docker run --rm -v "$PWD":/home/python/scripts -w /home/python/scripts biowdl/pyyaml python yamltodic.py
+# docker run --rm -v "$PWD":/home/python/scripts -w /home/python/scripts biowdl/pyyaml python yamltodic.py
 ```
