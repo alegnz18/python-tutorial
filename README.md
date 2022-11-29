@@ -10,9 +10,7 @@ Python cuenta con una imagen oficial lo que hace posible que se puedan ejecutar 
 
 Tener instalado Docker en tu sistema.
 Las imágenes se pueden encontrar en el repo oficial de docker, en:
-https://hub.docker.com/_/python/
-
-https://hub.docker.com/r/biowdl/pyyaml
+https://hub.docker.com/_/python/ y https://hub.docker.com/r/biowdl/pyyaml
 
 
 ## Modo Shell o Intérprete de Comandos
@@ -20,7 +18,7 @@ https://hub.docker.com/r/biowdl/pyyaml
 En su forma más simple podés ejecutar un contenedor con una imagen Python y acceder al modo Shell con el comando python:
 
 ```console
-docker run --rm -it python:latest python
+# docker run --rm -it python:latest python
 Python 3.11.0 (main, Nov 15 2022, 19:58:01) [GCC 10.2.1 20210110] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print('hola mundo')
