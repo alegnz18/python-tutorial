@@ -1,0 +1,17 @@
+---
+llave: valor
+otra_llave: Otro valor
+un_valor_numerico: 100
+notacion_cientifica: 1e+12
+booleano: true
+valor_nulo: null
+llave con espacios: valor
+# Nótese que los strings no deben estar entre comillas, aunqué también es válido.
+llave: "Un string, entre comillas."
+"Las llaves tambien pueden estar entre comillas.": "valor entre comillas"
+# La indentación se usa para anidar elementos
+un_mapa_indentado:
+    llave: valor
+    otra_llave: otro valor
+    otro_mapa_indentado:
+        llave_interna: valor_interno

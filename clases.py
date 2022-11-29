@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 print('\nCLASES')
 print('Constructor solo con parámetro por defecto')
 class Alumno:
