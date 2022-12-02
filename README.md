@@ -9,8 +9,8 @@ Tutorial de Python 3 usando la imagen de Docker oficial de Python.
 Python cuenta con una imagen oficial lo que hace posible que se puedan ejecutar proyectos y scripts en este lenguaje dentro de un contenedor Docker, crear/extender imágenes, compartir volúmenes, etc.
 
 Tener instalado Docker en tu sistema.
-Las imágenes se pueden encontrar en el repo oficial de docker, en:
-https://hub.docker.com/_/python/ y https://hub.docker.com/r/biowdl/pyyaml
+La imagen Docker oficial de Python se pueden encontrar en el repo oficial de docker, en:
+https://hub.docker.com/_/python/
 
 
 ## Modo Shell o Intérprete de Comandos
